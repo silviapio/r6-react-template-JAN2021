@@ -1,8 +1,11 @@
 import Book from "./Book";
+import booksData from "./data/books";
 
 export default () => {
-
+    let books = booksData.map( book => <Book item={book} /> )
     return (
-        <Book text="Viatge a la lluna" />
+        <div>
+        {books}
+        </div>
     );
 };
