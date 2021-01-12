@@ -1,7 +1,7 @@
-export default () => {
+export default (props) => {
     return(
         <div>
-            Viatge a la lluna
+            {props.text}
         </div>
     )
 }
