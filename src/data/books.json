@@ -1,4 +1,4 @@
-const booksData = [ 
+[ 
     { 
         "title": "Viatge a la lluna", 
         "author": "Julio Verne" 
@@ -7,6 +7,4 @@ const booksData = [
         "title": "El metge", 
         "author": "Noah Gordon" 
     } 
-];
-
-export default booksData;
+]

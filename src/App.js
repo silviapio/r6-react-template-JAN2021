@@ -1,8 +1,8 @@
 import Book from "./Book";
-import booksData from "./data/books";
+import data from "./data/books.json";
 
 export default () => {
-    let books = booksData.map( book => <Book item={book} /> )
+    const books = data.map( book => <Book item={book} /> );
     return (
         <div>
         {books}
