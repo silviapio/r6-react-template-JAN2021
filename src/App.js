@@ -3,6 +3,6 @@ import Book from "./Book";
 export default () => {
 
     return (
-        <Book />
+        <Book text="Viatge a la lluna" />
     );
 };

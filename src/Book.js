@@ -1,7 +1,7 @@
-export default () => {
+export default ({text}) => {
     return(
         <div>
-            Viatge a la lluna
+            {text}
         </div>
     )
 }
