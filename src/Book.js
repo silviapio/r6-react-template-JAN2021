@@ -1,7 +1,7 @@
-export default (props) => {
+export default ({text}) => {
     return(
         <div>
-            {props.text}
+            {text}
         </div>
     )
 }
