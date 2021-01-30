@@ -1,7 +1,8 @@
-export default () => {
+export default ({item}) => {
     return(
         <div>
-            Viatge a la lluna
+            <h3>{item.title}</h3>
+            <p>{item.author}</p>
         </div>
     )
 }
