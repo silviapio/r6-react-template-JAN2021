@@ -1,8 +1,8 @@
-export default (props) => {
+export default ({item}) => {
     return(
         <div>
-            <h3>{props.item.title}</h3>
-            <p>{props.item.author}</p>
+            <h3>{item.title}</h3>
+            <p>{item.author}</p>
         </div>
     )
 }
